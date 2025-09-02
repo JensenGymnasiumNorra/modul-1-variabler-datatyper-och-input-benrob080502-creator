@@ -5,25 +5,25 @@ Kommentera på varje rad vad som var fel och vilket sorts fel som uppstod.
 Det finns inte fel på varje rad.
 """
 
-# Fel: 
+# Fel: inget fel
 name = "Gruber"
-# Fel: 
+# Fel: inget fel
 print(f"{name} hits Goblin for 15 points of damage.")
-# Fel: 
+# Fel: inget fel
 print("Goblin has 40 healthpoints remaining.")
-# Fel: 
-print("The Goblin tries to hit {nam}.")
-# Fel: 
-print("It connects!"
-# Fel: 
-print("{name} takes 12 points of damage.")
-# Fel: 
+# Fel:stava name fel och glömde f
+print(f"The Goblin tries to hit {name}.")
+# Fel: glömde parantes
+print("It connects!")
+# Fel: glömde f
+print(f"{name} takes 12 points of damage.")
+# Fel: inget fel
 print(f"{name} looks tired.")
-# Fel: 
-    print("{nam} decides to drink a health potion."
-# Fel: 
+# Fel:glömde parates i slutet och f  
+print(f"{name} decides to drink a health potion.")
+# Fel: inget fel
 print(f"{name} is looking fresh. Ready to fight!")
-# Fel: 
+# Fel: inget fel
 print(f"{name} makes an overhead cleave.")
-# Fel: 
+# Fel: inget fel
 print("Victory! The Goblin is no more.")
